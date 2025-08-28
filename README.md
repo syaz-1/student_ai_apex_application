@@ -2,18 +2,18 @@ Technical Tutorial: Deploying the AI-Powered Student Learning Demo
 This guide explains how to set up the demo using Oracle Autonomous Database, Oracle APEX, and Oracle AI Services. It includes creating tables, loading sample data, importing the APEX app, and enabling AI-driven insights.
 ________________________________________
 Prerequisites
-•	Oracle Cloud account with Autonomous Database (ATP/ADW).
-•	Access to Oracle APEX (included with Autonomous DB).
-•	Access to OCI Generative AI for AI recommendations.
-•	SQL client or SQL Workshop in APEX.
+    •	Oracle Cloud account with Autonomous Database (ATP/ADW).
+    •	Access to Oracle APEX (included with Autonomous DB).
+    •	Access to OCI Generative AI for AI recommendations.
+    •	SQL client or SQL Workshop in APEX.
 ________________________________________
 Create the Autonomous Database
 1.	Sign in to Oracle Cloud Console.
 2.	Navigate to Autonomous Database → Create Autonomous Database.
 3.	Configure:
-o	Workload: Transaction Processing (ATP)
-o	Compute: Free Tier or Paid
-o	Note down Database Service Name and ADMIN credentials.
+    -	Workload: Transaction Processing (ATP)
+    -	Compute: Free Tier or Paid
+    -	Note down Database Service Name and ADMIN credentials.
 ________________________________________
 Create Schema and Tables
 1. create table using the student_table.sql
@@ -34,9 +34,9 @@ Configure AI Integration
 Running the Demo
 1.	Launch the APEX app in a browser.
 2.	Explore dashboards:
-o	Student Performance Summary
-o	Skill Gap Analysis
-o	Recommended Modules/Courses
-o	AI-Powered Summaries
+    - Performance Summary
+    - Skill Gap Analysis
+    - Recommended Modules/Courses
+    - AI-Powered Summaries
 
 
